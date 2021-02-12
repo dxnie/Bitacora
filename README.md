@@ -1,0 +1,28 @@
+# Bitacora de comandos LINUX
+- **lsb_release** => comando para ver la distribución que está instalada y su versión.
+  - **lsb_release-a** =>  La "a" del comando muestra toda la información.
+- **sudo** => usado para acceder archivos restringidos y operaciones.
+  - **sudo su** => para correr comandos con permisos de administrador.
+   - **sudo apt install nombrePrograma** => para instalar alguna aplicación o programa.
+   - **sudo apt search nombreApp** => busca la aplicación digitada y su información.
+- **ls** => muestra las carpetas/archivos actuales (los directorios).
+   - **ls rutaCarpeta** => muestra los archivos dentro de la carpeta digitada.
+   - **ls-la** => muestra los archivos de forma de lista detalla (lista los archivos). La "a" del comando es para mostrar los archivos ocultos.
+- **clear** => limpia la pantalla de la consola.
+- **pwd** => muestra la ruta actual.
+- **mkdir nombreCarpeta** => crea una carpeta nueva con el nombre digitado.
+- **cd nombreCarpeta** => cambia el directorio a la carpeta que uno digito.
+  - **cd..** => para volver a la carpeta de antes (home).
+- **touch** => crea un archivo vacío. Ej: touch archivo.txt
+- **nano nombreArchivo** => edita el archivo digitado.
+- **cat nombreArchivo** => imprime en la consola el contenido del archivo digitado.
+- **uname-a** => muestra la versión del kernel de Linux.
+- **top** => muestra los procesos que están corriendo en el sistema operativo.
+  - **htop** => hace lo mismo que top pero más bonito.
+- **ps** => muestra los procesos activos.
+  - **ps-aux** => muestra todos los procesos que hay en el sistema operativo.
+- **kill** => es un comando que envía una señal de terminación.
+  - **kill-9 idProceso** => mata/cierra el proceso o app con el id de este (pid).
+- **pstree** => se ven los procesos pero en tipo árbol (se puede ver como los procesos que tienen hijos).
+- **history** => para ver el historial de comandos que se ha digitado.
+
