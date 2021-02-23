@@ -5,6 +5,9 @@
   - **sudo su** => para correr comandos con permisos de administrador.
    - **sudo apt install nombrePrograma** => para instalar alguna aplicación o programa.
    - **sudo apt search nombreApp** => busca la aplicación digitada y su información.
+   - **sudo apt update** => lee la lista de carpetas disponibles.
+   - **sudo apt upgrade** => instala los nuevos paquetes.
+   - **sudo cp nombreArchivo1 nombreArchivo2** => hace una copia del primer archivo.
 - **ls** => muestra las carpetas/archivos actuales (los directorios).
    - **ls rutaCarpeta** => muestra los archivos dentro de la carpeta digitada.
    - **ls-la** => muestra los archivos de forma de lista detalla (lista los archivos). La "a" del comando es para mostrar los archivos ocultos.
