@@ -21,7 +21,7 @@
 - **touch** => crea un archivo vacío. Ej: touch archivo.txt
 - **nano nombreArchivo** => edita el archivo digitado.
 - **cat nombreArchivo** => imprime en la consola el contenido del archivo digitado.
-   -**cat /proc/meminfo** => para ver la información sobre la memoria. 
+   - **cat /proc/meminfo** => para ver la información sobre la memoria. 
 - **uname-a** => muestra la versión del kernel de Linux.
 - **top** => muestra los procesos que están corriendo en el sistema operativo.
   - **htop** => hace lo mismo que top pero más bonito.
