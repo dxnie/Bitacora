@@ -8,6 +8,8 @@
    - **sudo apt update** => lee la lista de carpetas disponibles.
    - **sudo apt upgrade** => instala los nuevos paquetes.
    - **sudo cp nombreArchivo1 nombreArchivo2** => hace una copia del primer archivo.
+   - **sudo mkedir** => crea el sistema de archivos.
+   - **sudo mount** => monta el sistema de archivos.
 - **ls** => muestra las carpetas/archivos actuales (los directorios).
    - **ls rutaCarpeta** => muestra los archivos dentro de la carpeta digitada.
    - **ls-la** => muestra los archivos de forma de lista detalla (lista los archivos). La "a" del comando es para mostrar los archivos ocultos.
@@ -19,6 +21,7 @@
 - **touch** => crea un archivo vacío. Ej: touch archivo.txt
 - **nano nombreArchivo** => edita el archivo digitado.
 - **cat nombreArchivo** => imprime en la consola el contenido del archivo digitado.
+   -**cat /proc/meminfo** => para ver la información sobre la memoria. 
 - **uname-a** => muestra la versión del kernel de Linux.
 - **top** => muestra los procesos que están corriendo en el sistema operativo.
   - **htop** => hace lo mismo que top pero más bonito.
@@ -28,4 +31,7 @@
   - **kill-9 idProceso** => mata/cierra el proceso o app con el id de este (pid).
 - **pstree** => se ven los procesos pero en tipo árbol (se puede ver como los procesos que tienen hijos).
 - **history** => para ver el historial de comandos que se ha digitado.
+- **free -h** , **swapon** , **cat /proc/sys/vm/swappiness** => muestra cuanto es el swap que se está utilizando
+- **df -h** => comando para poder ver todos los sistemas de archivos corriendo en el equipo.
+
 
