@@ -40,5 +40,5 @@
 - **df -h** => comando para poder ver todos los sistemas de archivos corriendo en el equipo.
 - **mount** => montaje de dispositivos en el sistema de archivos.
 - **du nombreArchivo** => muestra el tamaño del archivo.
-  -**du -h nombreArchivo** => muestra el tamaño del archivo especificando si es GB, MB, etc.
+  - **du -h nombreArchivo** => muestra el tamaño del archivo especificando si es GB, MB, etc.
 
