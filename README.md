@@ -10,9 +10,11 @@
    - **sudo cp nombreArchivo1 nombreArchivo2** => hace una copia del primer archivo.
    - **sudo mkedir** => crea el sistema de archivos.
    - **sudo mount** => monta el sistema de archivos.
+   - **sudo chmod 700 nombreArchivo** => cambia los permisos del archivo, en este caso es 700.
 - **ls** => muestra las carpetas/archivos actuales (los directorios).
    - **ls rutaCarpeta** => muestra los archivos dentro de la carpeta digitada.
    - **ls-la** => muestra los archivos de forma de lista detalla (lista los archivos). La "a" del comando es para mostrar los archivos ocultos.
+   - **ls -l nombreArchivo** => muestra la información del archivo
 - **clear** => limpia la pantalla de la consola.
 - **pwd** => muestra la ruta actual.
 - **mkdir nombreCarpeta** => crea una carpeta nueva con el nombre digitado.
@@ -32,6 +34,11 @@
 - **pstree** => se ven los procesos pero en tipo árbol (se puede ver como los procesos que tienen hijos).
 - **history** => para ver el historial de comandos que se ha digitado.
 - **free -h** , **swapon** , **cat /proc/sys/vm/swappiness** => muestra cuanto es el swap que se está utilizando
+- **stat nombreArchivo** => muestra la fecha de creacion y su último acceso.
+- **file nombreArchivo** => muestra el tipo de archivo (carpeta, acceso directo).
+- **chown user1 nombreArchivo** => muestra el propietario, grupo, lista de permisos chown.
 - **df -h** => comando para poder ver todos los sistemas de archivos corriendo en el equipo.
-
+- **mount** => montaje de dispositivos en el sistema de archivos.
+- **du nombreArchivo** => muestra el tamaño del archivo.
+  -**du -h nombreArchivo** => muestra el tamaño del archivo especificando si es GB, MB, etc.
 
