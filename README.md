@@ -44,23 +44,23 @@
 - **file nombreArchivo** => muestra el tipo de archivo (carpeta, acceso directo).
 - **chown user1 nombreArchivo** => muestra el propietario, grupo, lista de permisos chown.
 - **df -h** => comando para poder ver todos los sistemas de archivos corriendo en el equipo.
-
+- **stat nombreArchivo** => fecha de creación y último acceso del archivo puesto.
+- **file nombreArchivo** => muestra el tipo de archivo (si es carpeta, acceso directo).
 - **mount** => montaje de dispositivos en el sistema de archivos.
 - **du nombreArchivo** => muestra el tamaño del archivo.
   - **du -h nombreArchivo** => muestra el tamaño del archivo especificando si es GB, MB, etc. 
--**stat nombreArchivo** => fecha de creación y último acceso del archivo puesto.
--**file nombreArchivo** => muestra el tipo de archivo (si es carpeta, acceso directo).
--**chown user1 nombreArchivo** o **chmod 777 nombreArchivo** => muestra el propietario, grupo, y lista de permisos chown.
-  -**chmod 755** => agrega el permiso de ejecucion.
--**sudo chmod 700 nombreArchivo** => cambia los permisos del archivo, en este caso 700. 
--**Gparted** => administra las particiones (aplicación).
--**gnome-disk-utility** => muestra informacion sobre el disco (aplicacion).
--**Testdisk** => para recuperar archivos eliminados.
--**bash --version** => para ver la version de shell. 
--**echo $SHELL** => muestra cual es el shell que se esta utilizando.
--**cat /etc/shells** => para ver los shells que existen.
--**zsh** => para cambiarse al shell.
--**./script.sh** o **bash script.sh** => para ejecutar el archivo en bash y el primero para powershell.
--**zenity -h** => para ver las opciones de zenity.
+  - 
+- **chown user1 nombreArchivo** o **chmod 777 nombreArchivo** => muestra el propietario, grupo, y lista de permisos chown.
+**chmod 755** => agrega el permiso de ejecucion.
+**sudo chmod 700 nombreArchivo** => cambia los permisos del archivo, en este caso 700. 
+**Gparted** => administra las particiones (aplicación).
+**gnome-disk-utility** => muestra informacion sobre el disco (aplicacion).
+**Testdisk** => para recuperar archivos eliminados.
+**bash --version** => para ver la version de shell. 
+**echo $SHELL** => muestra cual es el shell que se esta utilizando.
+**cat /etc/shells** => para ver los shells que existen.
+**zsh** => para cambiarse al shell.
+**./script.sh** o **bash script.sh** => para ejecutar el archivo en bash y el primero para powershell.
+**zenity -h** => para ver las opciones de zenity.
 
 
