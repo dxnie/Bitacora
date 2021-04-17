@@ -81,7 +81,7 @@ Daniela Morales Salazar
 - **docker stop container imagen** => para parar una imagen.
 - **docker commit -m "algo" -a "usuario" idImagen nuevoNombreImagen** => para hacer un commit a la imagen modificada.
 - **sudo docker login -u nombreUsuario** => para iniciar sesion en docker.
-- **docker rmi Image nombreImagen** => elimina imagenes de docker.
+- **docker rmi Image nombreImagen** => elimina imágenes de docker.
 - **docker rm ID IDContenedor** => elimina contenedores.
 - **docker run -rm nombreImagen** => elimina el contenedor después de cerrarlo.
 - **sudo docker rm $(sudo docker ps -a -f status=exited -q)** =>  elimina todos los contenedores con estado “Exited (0)”.
