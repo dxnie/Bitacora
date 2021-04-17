@@ -29,7 +29,7 @@ Daniela Morales Salazar
 - **pwd** => muestra la ruta actual.
 - **mkdir nombreCarpeta** => crea una carpeta nueva con el nombre digitado.
 - **cd nombreCarpeta** => cambia el directorio a la carpeta que uno digito.
-  - **cd..** => para volver a la carpeta de antes (home).
+  - **cd ..** => para volver a la carpeta de antes (home).
 - **touch** => crea un archivo vacío. Ej: touch archivo.txt
 - **nano nombreArchivo** => edita el archivo digitado.
 - **cat nombreArchivo** => imprime en la consola el contenido del archivo digitado.
