@@ -38,7 +38,7 @@ Daniela Morales Salazar
 - **top** => muestra los procesos que están corriendo en el sistema operativo.
   - **htop** => hace lo mismo que top pero más bonito.
 - **ps** => muestra los procesos activos.
-  - **ps aux** => muestra todos los procesos que hay en el sistema operativo.
+  - **ps aux | ps -aux** => muestra todos los procesos que hay en el sistema operativo.
 - **kill** => es un comando que envía una señal de terminación.
   - **kill-9 idProceso** => mata/cierra el proceso o app con el id de este (pid).
 - **pstree** => se ven los procesos pero en tipo árbol (se puede ver como los procesos que tienen hijos).
