@@ -72,7 +72,7 @@ Daniela Morales Salazar
   - **su - $USER** => ^^^
 - **sudo systemctl start docker** => para iniciar el daemon el cual conserva todos los datos en un solo directorio.
 - **sudo systemctl enable docker** => ^^^^^^
-- **sdo docker run nombrePrograma** => para correr un programa.
+- **sudo docker run nombrePrograma** => para correr un programa.
 - **docker search nombreImagen** => para buscar imágenes en docker.
 - **docker pull nombreImagen** => para instalar imágenes en el docker.
 - **sudo docker images** => para ver las imágenes instaladas.
