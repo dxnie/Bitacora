@@ -57,7 +57,7 @@ Daniela Morales Salazar
 - **chmod 755** => agrega el permiso de ejecucion.
   - **sudo chmod 700 nombreArchivo** => cambia los permisos del archivo, en este caso 700. 
 - **Gparted** => administra las particiones (aplicación).
-- **gnome-disk-utility** => muestra informacion sobre el disco (aplicacion).
+- **gnome-disk-utility** => muestra informacion sobre el disco (aplicación).
 - **Testdisk** => para recuperar archivos eliminados.
 - **bash --version** => para ver la version de shell. 
 - **echo $SHELL** => muestra cual es el shell que se esta utilizando.
