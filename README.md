@@ -1,7 +1,7 @@
 # Bitacora de comandos LINUX
 Daniela Morales Salazar
 - **lsb_release** => comando para ver la distribución que está instalada y su versión.
-  - **lsb_release-a** =>  La "a" del comando muestra toda la información.
+  - **lsb_release -a** =>  La "a" del comando muestra toda la información.
 - **su - username** => solicita al sistema que inicie una nueva sesión de inicio de sesión para el usuario especificado.
 - **sudo** => usado para acceder archivos restringidos y operaciones.
   - **sudo su** => para correr comandos con permisos de administrador.
