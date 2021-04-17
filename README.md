@@ -69,7 +69,7 @@ Daniela Morales Salazar
 # DOCKER
 - **sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common** => instala los paquetes necesarios para instalar docker.
 - **sudo usermof -aG docker $USER** => para usar docker sin user.
-  - **su - ${USER} => ^^^
+  - **su - $USER** => ^^^
 - **sudo systemctl start docker** => para iniciar el daemon el cual conserva todos los datos en un solo directorio.
 - **sudo systemctl enable docker** => ^^^^^^
 - **sdo docker run nombrePrograma** => para correr un programa.
