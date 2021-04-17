@@ -73,11 +73,11 @@ Daniela Morales Salazar
 - **sudo systemctl start docker** => para iniciar el daemon el cual conserva todos los datos en un solo directorio.
 - **sudo systemctl enable docker** => ^^^^^^
 - **sdo docker run nombrePrograma** => para correr un programa.
-- **docker search nombreImagen** => para buscar imagenes en docker.
-- **docker pull nombreImagen** => para instalar iamgenes en el docker.
+- **docker search nombreImagen** => para buscar imágenes en docker.
+- **docker pull nombreImagen** => para instalar imágenes en el docker.
 - **sudo docker images** => para ver las imágenes instaladas.
 - **sudo docker ps -a** => para ver el estado de las imágenes.
-- **sudo docker start imagen** => para iniciar una imagen (se puede poner el nombre, o id de la iamgen).
+- **sudo docker start imagen** => para iniciar una imagen (se puede poner el nombre, o id de la imagen).
 - **docker stop container imagen** => para parar una imagen.
 - **docker commit -m "algo" -a "usuario" idImagen nuevoNombreImagen** => para hacer un commit a la imagen modificada.
 - **sudo docker login -u nombreUsuario** => para iniciar sesion en docker.
