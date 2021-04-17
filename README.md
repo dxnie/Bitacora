@@ -43,8 +43,8 @@ Daniela Morales Salazar
   - **kill-9 idProceso** => mata/cierra el proceso o app con el id de este (pid).
 - **pstree** => se ven los procesos pero en tipo árbol (se puede ver como los procesos que tienen hijos).
 - **history** => para ver el historial de comandos que se ha digitado.
-- **free -h** , **swapon** , **cat /proc/sys/vm/swappiness** => muestra cuanto es el swap que se está utilizando
-- **stat nombreArchivo** => muestra la fecha de creacion y su último acceso.
+- **free -h** , **swapon** , **cat /proc/sys/vm/swappiness** => muestra cuanto es el swap que se está utilizando.
+- **stat nombreArchivo** => muestra la fecha de creación y su último acceso.
 - **file nombreArchivo** => muestra el tipo de archivo (carpeta, acceso directo).
 - **chown user1 nombreArchivo** => muestra el propietario, grupo, lista de permisos chown.
 - **df -h** => comando para poder ver todos los sistemas de archivos corriendo en el equipo.
