@@ -10,8 +10,8 @@
    - **sudo add-apt-repository** => agrega un repositorio APT.
    - **sudo usermode** => permite agregar/editar grupos en los que se encuentra un usuario.
    - **sudo apt update** => lee la lista de carpetas disponibles.
-   - **sudo apt upgrade -y** => para decir yes a todo.
    - **sudo apt upgrade** => instala los nuevos paquetes.
+      - **sudo apt upgrade -y** => para decir yes a todo.
    - **sudo cp nombreArchivo1 nombreArchivo2** => hace una copia del primer archivo.
    - **sudo mkedir** => crea el sistema de archivos.
    - **sudo mount** => monta el sistema de archivos.
