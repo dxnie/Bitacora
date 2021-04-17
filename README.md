@@ -23,7 +23,7 @@ Daniela Morales Salazar
    - **sudo fdisk -l** => para listar todas las particiones existentes en nuestro sistema.
 - **ls** => muestra las carpetas/archivos actuales (los directorios).
    - **ls rutaCarpeta** => muestra los archivos dentro de la carpeta digitada.
-   - **ls-la** => muestra los archivos de forma de lista detalla (lista los archivos). La "a" del comando es para mostrar los archivos ocultos.
+   - **ls -la** => muestra los archivos de forma de lista detalla (lista los archivos). La "a" del comando es para mostrar los archivos ocultos.
    - **ls -l nombreArchivo** => muestra la información del archivo
 - **clear** => limpia la pantalla de la consola.
 - **pwd** => muestra la ruta actual.
