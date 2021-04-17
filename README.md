@@ -15,7 +15,6 @@
    - **sudo cp nombreArchivo1 nombreArchivo2** => hace una copia del primer archivo.
    - **sudo mkedir** => crea el sistema de archivos.
    - **sudo mount** => monta el sistema de archivos.
-   - **sudo mount -
    - **sudo chmod 700 nombreArchivo** => cambia los permisos del archivo, en este caso es 700.
    - **sudo dmidecode --type17** => información sobre memoria. 
    - **sudo mkdir /mnt/ram_disk** => para montar una unidad RAM DISK.
