@@ -70,8 +70,8 @@
 - **sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common** => instala los paquetes necesarios para instalar docker.
 - **sudo usermof -aG docker $USER** => para usar docker sin user.
   -**su - ${USER} => ^^^
-- **sudo systemctl start docker** =>
-- **sudo systemctl enable docker** =>
+- **sudo systemctl start docker** => para iniciar el daemon el cual conserva todos los datos en un solo directorio.
+- **sudo systemctl enable docker** => ^^^^^^
 - **sdo docker run nombrePrograma** => para correr un programa.
 - **docker search nombreImagen** => para buscar imagenes en docker.
 - **docker pull nombreImagen** => para instalar iamgenes en el docker.
@@ -85,4 +85,4 @@
 - **docker rm ID IDContenedor** => elimina contenedores.
 - **docker run -rm nombreImagen** => elimina el contenedor después de cerrarlo.
 - **sudo docker rm $(sudo docker ps -a -f status=exited -q)** =>  elimina todos los contenedores con estado “Exited (0)”.
-- sudo docker push docker-registry-username/docker-image-name
+- **sudo docker push usuarioDockerHUb/nombreImagenDockerHub** => para hacer un push a la cuenta de DockerHub.
