@@ -1,10 +1,14 @@
 # Bitacora de comandos LINUX
 - **lsb_release** => comando para ver la distribución que está instalada y su versión.
   - **lsb_release-a** =>  La "a" del comando muestra toda la información.
+- **su - username** => solicita al sistema que inicie una nueva sesión de inicio de sesión para el usuario especificado.
 - **sudo** => usado para acceder archivos restringidos y operaciones.
   - **sudo su** => para correr comandos con permisos de administrador.
    - **sudo apt install nombrePrograma** => para instalar alguna aplicación o programa.
    - **sudo apt search nombreApp** => busca la aplicación digitada y su información.
+   - **sudo apt-key add -** => agrega una clave GPG.
+   - **sudo add-apt-repository** => agrega un repositorio APT.
+   - **sudo usermode** => permite agregar/editar grupos en los que se encuentra un usuario.
    - **sudo apt update** => lee la lista de carpetas disponibles.
    - **sudo apt upgrade -y** => para decir yes a todo.
    - **sudo apt upgrade** => instala los nuevos paquetes.
@@ -30,7 +34,7 @@
 - **nano nombreArchivo** => edita el archivo digitado.
 - **cat nombreArchivo** => imprime en la consola el contenido del archivo digitado.
    - **cat /proc/meminfo** => para ver la información sobre la memoria. 
-- **uname-a** => muestra la versión del kernel de Linux.
+- **uname -a** => muestra la versión del kernel de Linux.
 - **top** => muestra los procesos que están corriendo en el sistema operativo.
   - **htop** => hace lo mismo que top pero más bonito.
 - **ps** => muestra los procesos activos.
@@ -62,4 +66,23 @@
 - **./script.sh** o **bash script.sh** => para ejecutar el archivo en bash y el primero para powershell.
 - **zenity -h** => para ver las opciones de zenity.
 
-
+# DOCKER
+- **sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common** => instala los paquetes necesarios para instalar docker.
+- **sudo usermof -aG docker $USER** => para usar docker sin user.
+  -**su - ${USER} => ^^^
+- **sudo systemctl start docker** =>
+- **sudo systemctl enable docker** =>
+- **sdo docker run nombrePrograma** => para correr un programa.
+- **docker search nombreImagen** => para buscar imagenes en docker.
+- **docker pull nombreImagen** => para instalar iamgenes en el docker.
+- **sudo docker images** => para ver las imágenes instaladas.
+- **sudo docker ps -a** => para ver el estado de las imágenes.
+- **sudo docker start imagen** => para iniciar una imagen (se puede poner el nombre, o id de la iamgen).
+- **docker stop container imagen** => para parar una imagen.
+- **docker commit -m "algo" -a "usuario" idImagen nuevoNombreImagen** => para hacer un commit a la imagen modificada.
+- **sudo docker login -u nombreUsuario** => para iniciar sesion en docker.
+- **docker rmi Image nombreImagen** => elimina imagenes de docker.
+- **docker rm ID IDContenedor** => elimina contenedores.
+- **docker run -rm nombreImagen** => elimina el contenedor después de cerrarlo.
+- **sudo docker rm $(sudo docker ps -a -f status=exited -q)** =>  elimina todos los contenedores con estado “Exited (0)”.
+- sudo docker push docker-registry-username/docker-image-name
